@@ -16,25 +16,25 @@
 class ServiceBusInspector < Formula
   desc "Terminal-based UI for inspecting and monitoring Azure Service Bus queues"
   homepage "https://github.com/anton-kochev/service-bus-inspector"
-  version "0.2.7"
+  version "0.2.8"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/anton-kochev/service-bus-inspector/releases/download/v0.2.7/ServiceBusInspector-osx-x64.tar.gz"
-      sha256 "0d2712149af9f0285c148c45fc57905aca7c74c39ed4cd6c572ef3fbd2cf5196"
+      url "https://github.com/anton-kochev/service-bus-inspector/releases/download/v0.2.8/ServiceBusInspector-osx-x64.tar.gz"
+      sha256 "393bc85659dd8367ea7fa28ad71cd541fabf83853b8f46567d5823b0a4bab9f9"
     end
 
     on_arm do
-      url "https://github.com/anton-kochev/service-bus-inspector/releases/download/v0.2.7/ServiceBusInspector-osx-arm64.tar.gz"
-      sha256 "1a74bb7bf5943ffd87c76eec81bf450b5e373be823a71622373a0a18091af2a4"
+      url "https://github.com/anton-kochev/service-bus-inspector/releases/download/v0.2.8/ServiceBusInspector-osx-arm64.tar.gz"
+      sha256 "ddf4e9ebae2d07269bab49b9802edc8b06198e53c8403f5177642c965de1c437"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/anton-kochev/service-bus-inspector/releases/download/v0.2.7/ServiceBusInspector-linux-x64.tar.gz"
-      sha256 "fe75a7fd7f49a7c3d7d370e4345ef566d39b7ca03f98b46f1d9fd2de098d8c3a"
+      url "https://github.com/anton-kochev/service-bus-inspector/releases/download/v0.2.8/ServiceBusInspector-linux-x64.tar.gz"
+      sha256 "b16010ec2981d8bedf04865a7cf418a56907783b9cc67139575c54d06e86ff85"
     end
 
     on_arm do
