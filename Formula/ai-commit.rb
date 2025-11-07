@@ -1,22 +1,22 @@
 class AiCommit < Formula
   desc "Your Rust-based AI commit message generator"
   homepage "https://github.com/anton-kochev/ai-commit"
-  version "0.6.1"
+  version "0.6.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/anton-kochev/ai-commit/releases/download/v0.6.1/ai-commit-aarch64-apple-darwin.tar.gz"
-      sha256 "36b39ee4f21efe98716a8616770c8692dd44d3393c281de556f3446e5987e54b"
+      url "https://github.com/anton-kochev/ai-commit/releases/download/v0.6.2/ai-commit-aarch64-apple-darwin.tar.gz"
+      sha256 "a78d0ac249a4e23095c2ac6a073319fb5e072461dca938e37cf9de41484ea7fe"
     else
-      url "https://github.com/anton-kochev/ai-commit/releases/download/v0.6.1/ai-commit-x86_64-apple-darwin.tar.gz"
-      sha256 "bb67c1f77ca8abc6cd8636b819349c7103a18496345558775fc3c77776d7d084"
+      url "https://github.com/anton-kochev/ai-commit/releases/download/v0.6.2/ai-commit-x86_64-apple-darwin.tar.gz"
+      sha256 "2617d9ce077b6e695fac4bc2c5e84bce5996a30ce9c6cf5cd946f945d0d71107"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/anton-kochev/ai-commit/releases/download/v0.6.1/ai-commit-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d2e10db37faa85d683667aa8e65537df6feaf2dc07123ffece08970be0e55080"
+      url "https://github.com/anton-kochev/ai-commit/releases/download/v0.6.2/ai-commit-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7b9a456fb5282a90991e4bf7e1d8244cc25ec114bcc503d98658aa7424daec48"
     end
   end
 
