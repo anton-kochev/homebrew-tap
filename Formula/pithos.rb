@@ -1,9 +1,9 @@
 class Pithos < Formula
   desc "Pithos launcher"
   homepage "https://github.com/anton-kochev/pithos"
-  version "0.7.1"
-  url "https://github.com/anton-kochev/pithos/releases/download/v0.7.1/pithos-aarch64-apple-darwin.tar.gz"
-  sha256 "436719db67a3c7b786c9a344b3a4dcf64619867b64e55abb0471601a9200ce26"
+  version "0.7.2"
+  url "https://github.com/anton-kochev/pithos/releases/download/v0.7.2/pithos-aarch64-apple-darwin.tar.gz"
+  sha256 "72f639e5cd78b442af7ac0f1c8c739009d0142603f4424047c89174f94f80b6a"
 
   depends_on arch: :arm64
   depends_on :macos
